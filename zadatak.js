@@ -70,3 +70,14 @@ for (kljuc in auto){
         console.log(kljuc + " : " + tmpKljuc);
     }
 }
+
+var myDate = new Date (-100000000000);
+console.log(myDate);
+
+var mydate1 = new Date ();
+console.log(mydate1);
+
+var mydate2 = new Date ("october, 10, 2016 10:30:15 pm");
+console.log(mydate2);
+
+console.log(Math.ceil(4.4));

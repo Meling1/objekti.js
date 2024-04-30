@@ -9,3 +9,4 @@ svaka funkcija mora primati argumente i vracati neku vrijednost.
 4. ispisi u konzoli razumljivu recenicu koja ukljucuje bar 2 svojstva
  tvog objekta.
 5. pretvori svoj objekt u JSON string.
+
