@@ -49,13 +49,24 @@ console.log(auto.zakoci(11));
  uvijek je bolje izbjeci uvođenje novih varijabli kao je moguce */
 
  console.log( "trenutna boja auta je: " +
-  auto.boja +
+auto.boja +
    ", a nakon promjene boje je " +
     auto.promijeniBoju("crvena"));
 
-    console.log(auto.boja); //crvena
+console.log(auto.boja); //crvena
 
 auto.boja = "zelena";
 auto["boja"]="žuta";
 
 console.log(auto.boja);
+
+//3. zadatak
+ 
+for (kljuc in auto){
+    let tmpKljuc = auto[kljuc];
+    // console.log("--> provjeravamo" + tmpKljuc);
+
+    if (typeof tmpKljuc == "number"){
+        console.log(kljuc + " : " + tmpKljuc);
+    }
+}
